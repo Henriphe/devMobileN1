@@ -134,6 +134,12 @@ const Home = () => {
                     <Text style={style.Price}> {products['p3'].aval} <Image style={style.Avaliation} source={require('../../../../assets/star.png')} /></Text>
                     <Text style={style.Description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quo rem, perspiciatis quaerat illum ratione possimus at consequuntur, iste praesentium iure repellendus! Mollitia odit repudiandae est! Impedit laborum alias atque?</Text>
                 </View>
+                <View style={style.NewNavBar}>
+             
+                <TouchableOpacity onPress={() => navigation.navigate("About")}>
+                    <Icon name="user-circle-o" size={40} color="white" style={style.Icon} />
+                </TouchableOpacity>
+            </View>
             </ScrollView>
         </View >
     )

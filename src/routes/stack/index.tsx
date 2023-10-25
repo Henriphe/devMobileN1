@@ -10,6 +10,7 @@ import {Devs} from '../../modules/Devs/screens/Devs/Devs';
 import { InformacaoD } from '../../modules/Perfil/screens/Perfil/Perfil';
 import { InformacaoJ } from '../../modules/Perfil/screens/Perfil/Perfil2';
 import { InformacaoDesir } from '../../modules/Perfil/screens/Perfil/Perfil3';
+import { About } from '../../modules/VersionApp/About';
 
 const Stk = createNativeStackNavigator();
 
@@ -23,6 +24,7 @@ const Stack = () =>{
             <Stk.Screen name='InformacaoJ' component={InformacaoJ}/>
             <Stk.Screen name='InformacaoDesir' component={InformacaoDesir}/>
             <Stk.Screen name='Devs' component={Devs}/>
+            <Stk.Screen name='About' component={About}/>
   
         </Stk.Navigator>
     )

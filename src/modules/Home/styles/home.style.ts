@@ -56,5 +56,12 @@ export const style = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         marginLeft: '80%'
+    },
+    NewNavBar: {
+        justifyContent: 'center',
+        flexDirection: "row",
+        backgroundColor: '#f96d09',
+        height: 65,
+        padding: 10
     }
 })
